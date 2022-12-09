@@ -1,5 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">CreditMarket</string>
     <string name="take_credit">ВЗЯТЬ ЗАЙМ</string>
     <string name="up_to">До 30 000 Р</string>
     <string name="rate_from">Ставка от 0%</string>
