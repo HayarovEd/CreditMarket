@@ -13,7 +13,7 @@ class CreditHolder (private val binding: ItemCreditBinding) :
 
     fun bind(item: CreditMarketData) {
         binding.upSumTv.text = item.sumOne
-        binding.rateTv.text = "сСтавка от ${item.percent}"
+        binding.rateTv.text = "Ставка от ${item.percent}"
         Glide.with(this.itemView.context)
             .load(item.imageUrl)
             .into(binding.posterIv)
